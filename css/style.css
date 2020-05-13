@@ -1,0 +1,26 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+}
+
+.nav {
+    background-color: #fafafa;
+    list-style: none;
+    padding: 10px;
+}
+
+.nav > li {
+    display: online-block;
+    padding: 0 20px;
+    font-size: 20px;
+}
+
+.nav > li > a {
+    text-decoration: none;
+    color: #292927;
+}
+
+.banner > .banner-image {
+    width: 100%;
+    display: block;
