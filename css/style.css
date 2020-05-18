@@ -1,26 +1,78 @@
-body {
+@import url('https://fonts.googleapis.com/css?family=Raleway:100,200,300,400,500,600,700|Oswald:200,300,400,500,600,700');
+
+
+* {
     margin: 0;
     padding: 0;
-    font-family: 'Arial', sans-serif;
+    border: 0;
 }
 
-.nav {
-    background-color: #fafafa;
-    list-style: none;
-    padding: 10px;
+body {
+    font-family: 'Raleway', sans-serif;
+    color: #777777;
 }
 
-.nav > li {
-    display: online-block;
-    padding: 0 20px;
-    font-size: 20px;
+#logo {
+    font-family: Oswald;
+    font-weight: 300;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    float: left;
+    font-size: 200%;
+    color: #353628;
+    }
+
+#logo, #menu {
+    line-height: 40px;
 }
 
-.nav > li > a {
+#menu {
+    float: right;
+}
+
+#menu > li {
+    list-style-type: none;
+    font-family: Raleway;
+    font-weight: 200;
+    font-size: 80%;
+    letter-spacing: 2px;
+    float: left;
+    margin-right: 30px;
+    }
+
+#menu a {
     text-decoration: none;
-    color: #292927;
+    color: #353628;
 }
 
-.banner > .banner-image {
+a:hover {
+    border-bottom:1px solid#353628;
+}
+
+.active {
+   border-bottom:1px solid#353628; 
+}
+
+.banner-image {
     width: 100%;
     display: block;
+
+}
+
+.cover-text {
+    color: #ef733e;
+    font-size: 130%;
+    font-family: Oswald;
+    text-transform: uppercase;
+    text-align: center;
+    letter-spacing: 2px;
+    width: 500px;
+    height: 200px;
+    padding-left: 10px;
+    padding-top: 40px;
+    background-color: RGBA(53,54,40,.7);
+    left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+    position: absolute;
+    }
