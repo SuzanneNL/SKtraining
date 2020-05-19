@@ -66,21 +66,19 @@ a:hover {
     border-bottom: 8px solid #353628;
 }
 
-/*
 .cover-text {
     color: #ef733e;
-    font-size: 130%;
     font-family: Oswald;
+    font-size: 130%;
     text-transform: uppercase;
     text-align: center;
     letter-spacing: 2px;
-    width: 500px;
-    height: 200px;
-    padding-left: 10px;
-    padding-top: 40px;
-    background-color: RGBA(53,54,40,.7);
+    width: 60%;
+    height: 20%;
+    padding-top: 45px;
+    background-color: RGBA(67,70,39,0.8);
     left: 50%;
     top: 50%;
     transform: translate(-50%, -50%);
     position: absolute;
-    } */
+    } 
