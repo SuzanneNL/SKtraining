@@ -82,3 +82,32 @@ a:hover {
     transform: translate(-50%, -50%);
     position: absolute;
     } 
+
+
+    /* ---------------------------------------------------------------- buttons */
+#select-user {
+    padding-top: 30px;
+}
+
+.btn--cta {
+  font-weight: bold;
+  border-radius: 40px;
+  width: 300px;
+  height: 60px;
+  position: absolute;
+ }
+
+.btn--green {
+  color: white;
+  background-color: #353628;
+  border-color: #353628;
+}
+
+.btn--green:hover,
+.btn--green:active,
+.btn--green:focus,
+.btn--green:active:focus {
+  background-color: #ef733e;
+  border-color: #ef733e;
+  color: white;
+}
