@@ -87,6 +87,7 @@ a:hover {
     /* ---------------------------------------------------------------- buttons */
 #select-user {
     padding-top: 30px;
+    padding-bottom: 100px;
 }
 
 .btn--cta {
@@ -110,4 +111,27 @@ a:hover {
   background-color: #ef733e;
   border-color: #ef733e;
   color: white;
+}
+
+footer {
+    background-color: #353628;
+    color: #fafafa;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.social-links {
+  text-align: center;
+}
+
+.social-links li {
+  display: inline;
+
+}
+
+.social-links i {
+  font-size: 100%;
+  padding: 3%;
+  color: #fff;
 }
