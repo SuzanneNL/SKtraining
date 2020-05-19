@@ -59,6 +59,35 @@ a:hover {
    border-bottom:1px solid#353628; 
 }
 
+.banner-container{
+    background: url(../images/banner.jpg) no-repeat center; 
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+#banner {
+    background-color: RGBA(67,70,39,0.8);
+}
+
+.cover-text {
+    color: #fff;
+    font-family: Oswald;
+    text-transform: uppercase;
+    text-align: center;
+}
+    
+.cover-text h2 {
+    letter-spacing: 2px;
+    font-size: 30px;
+}
+
+
+/*--------------------BANNER OLD--------------------
 .banner-image {
     width: 100%;
     display: block;
@@ -83,6 +112,7 @@ a:hover {
     position: absolute;
     } 
 
+--------------------END BANNER OLD--------------------*/
 
     /* ---------------------------------------------------------------- buttons */
 #select-user {
