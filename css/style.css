@@ -12,6 +12,10 @@ body {
     color: #777777;
 }
 
+header {
+    border-top: 8px solid #353628;
+}
+
 #logo {
     font-family: Oswald;
     font-weight: 300;
@@ -20,7 +24,9 @@ body {
     float: left;
     font-size: 200%;
     color: #353628;
+    padding-left: 20px;
     }
+
 
 #logo, #menu {
     line-height: 40px;
@@ -56,9 +62,11 @@ a:hover {
 .banner-image {
     width: 100%;
     display: block;
-
+    border-top: 8px solid #353628;
+    border-bottom: 8px solid #353628;
 }
 
+/*
 .cover-text {
     color: #ef733e;
     font-size: 130%;
@@ -72,7 +80,7 @@ a:hover {
     padding-top: 40px;
     background-color: RGBA(53,54,40,.7);
     left: 50%;
-  top: 50%;
-  transform: translate(-50%, -50%);
+    top: 50%;
+    transform: translate(-50%, -50%);
     position: absolute;
-    }
+    } */
