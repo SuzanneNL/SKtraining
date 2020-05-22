@@ -17,6 +17,7 @@ body {
 
 header {
     border-top: 8px solid #353628;
+    border-bottom: 8px solid #353628;
 }
 
 #logo {
@@ -90,37 +91,9 @@ a:hover {
 }
 
 
-/*--------------------BANNER OLD--------------------
-.banner-image {
-    width: 100%;
-    display: block;
-    border-top: 8px solid #353628;
-    border-bottom: 8px solid #353628;
-}
-
-.cover-text {
-    color: #ef733e;
-    font-family: Oswald;
-    font-size: 130%;
-    text-transform: uppercase;
-    text-align: center;
-    letter-spacing: 2px;
-    width: 60%;
-    height: 20%;
-    padding-top: 45px;
-    background-color: RGBA(67,70,39,0.8);
-    left: 50%;
-    top: 50%;
-    transform: translate(-50%, -50%);
-    position: absolute;
-    } 
-
---------------------END BANNER OLD--------------------*/
-
-    /* ---------------------------------------------------------------- buttons */
+/* ---------------------------------------------------------------- buttons */
 #select-user {
     padding-top: 30px;
-    padding-bottom: 100px;
 }
 
 .btn--cta {
@@ -128,7 +101,8 @@ a:hover {
   border-radius: 40px;
   width: 300px;
   height: 60px;
-  position: absolute;
+  position: relative;
+  padding-top: 10px;
  }
 
 .btn--green {
@@ -146,6 +120,9 @@ a:hover {
   color: white;
 }
 
+/* ---------------------------------------------------------------- end buttons */
+
+/* ---------------------------------------------------------------- footer */
 footer {
     background-color: #353628;
     color: #fafafa;
@@ -169,3 +146,5 @@ footer {
   padding: 3%;
   color: #fff;
 }
+
+/* ---------------------------------------------------------------- end footer */
