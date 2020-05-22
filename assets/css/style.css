@@ -17,7 +17,6 @@ body {
 
 header {
     border-top: 8px solid #353628;
-    border-bottom: 8px solid #353628;
 }
 
 #logo {
@@ -35,24 +34,66 @@ header {
 #logo, #menu {
     line-height: 40px;
 }
+-------
 
-#menu {
-    float: right;
+#logo, .menu {
+    height: 40px;
+    line-height: 40px;
 }
 
-#menu > li {
-    list-style-type: none;
-    font-family: Raleway;
-    font-weight: 200;
-    font-size: 80%;
-    letter-spacing: 2px;
-    float: left;
-    margin-right: 30px;
-    }
 
-#menu a {
+.nav {
+    text-align: right;
+    height: 70px;
+    line-height: 70px;
+}
+
+.menu {
+    margin: 0 30px 0 0;
+}
+.menu a {
+    clear: right;
     text-decoration: none;
     color: #353628;
+    margin: 0 10px;
+    line-height: 70px;
+}
+
+
+label {
+    margin: 0 40px 0 0;
+    font-size: 26px;
+    line-height: 70px;
+    display: none;
+    width: 26px;
+    float: right;
+}
+#toggle {
+    display: none;
+}
+
+
+@media only screen and (max-width: 500px) {
+    label {
+        display: block;
+        cursor: pointer;
+    }
+    .menu {
+        text-align: center;
+        width: 100%;
+        display: none;
+    }
+    .menu a {
+        display: block;
+        border-bottom: 1px solid #EAEAEB;
+        margin: 0;
+     
+    }
+    #toggle:checked + .menu {
+        display: block;
+    }
+    
+    
 }
 
 a:hover {
@@ -63,6 +104,8 @@ a:hover {
    border-bottom:1px solid#353628; 
 }
 
+/* ---------------------------------------------------------------- banner */
+
 .banner-container{
     background: url(../images/banner.jpg) no-repeat center; 
     -moz-background-size: cover;
@@ -72,6 +115,8 @@ a:hover {
     align-items: center;
     justify-content: center;
     position: relative;
+    border-top: 8px solid #353628;
+    border-bottom: 8px solid #353628;
 }
 
 #banner {
