@@ -10,6 +10,9 @@
 body {
     font-family: 'Raleway', sans-serif;
     color: #777777;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
 }
 
 header {
@@ -146,9 +149,10 @@ a:hover {
 footer {
     background-color: #353628;
     color: #fafafa;
-    margin: 0;
     padding: 0;
+    margin-top: auto;
     text-align: center;
+
 }
 
 .social-links {
