@@ -47,6 +47,10 @@ header {
 .menu a {
     clear: right;
     text-decoration: none;
+    font-family: Raleway;
+    font-weight: 200;
+    font-size: 80%;
+    letter-spacing: 2px;
     color: #353628;
     margin: 0 10px;
     line-height: 70px;
