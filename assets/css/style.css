@@ -14,9 +14,21 @@ body {
     display: flex;
     flex-direction: column;
 }
+/* ---------------------------------------------------------------- header */
 
 header {
     border-top: 8px solid #353628;
+}
+
+label {
+    margin-bottom: 0px;
+}
+
+.navigation {
+    box-sizing: border-box;
+    background: #fafafa;
+    height: 80px;
+    width: 100%
 }
 
 #logo {
@@ -24,80 +36,97 @@ header {
     font-weight: 300;
     text-transform: uppercase;
     letter-spacing: 2px;
-    float: left;
-    font-size: 200%;
     color: #353628;
-    padding-left: 20px;
-    }
-
-
-#logo, #menu {
-    line-height: 40px;
-}
-
-.nav {
-    text-align: right;
-    height: 70px;
-    line-height: 70px;
-}
-
-.menu {
-    margin: 0 30px 0 0;
-}
-.menu a {
-    clear: right;
-    text-decoration: none;
-    font-family: Raleway;
-    font-weight: 200;
-    font-size: 80%;
-    letter-spacing: 2px;
-    color: #353628;
-    margin: 0 10px;
-    line-height: 70px;
+    font-size: 35px;
+    line-height: 80px;
+    padding: 0 30px;
 
 }
 
-
-label {
-    margin: 0 40px 0 0;
-    font-size: 26px;
-    line-height: 70px;
-    display: none;
-    width: 26px;
+.navigation ul {
+    list-style: none;    
     float: right;
+    margin-right: 20px;    
 }
-#toggle {
+
+
+.navigation ul li {
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 px;
+}
+
+.navigation ul li a {
+    text-decoration: none;
+    color: #353628;
+    font-size: 20px;
+    padding: 7px 13px;
+    border-radius: 3px;
+    text-transform: uppercase;
+}
+
+.active,.navigation a:hover {
+    text-decoration: none;
+    background: #ef733e;
+    transition: .5s;
+}
+
+.checkbtn {
+    font-size: 30px;
+    color: #353628;
+    float: right;
+    line-height: 80px;
+    margin-right: 40px;
+    cursor: pointer;
     display: none;
 }
 
-@media only screen and (max-width: 500px) {
-    label {
+#check {
+    display: none;
+}
+
+@media (max-width: 858px) {
+    .checkbtn {
         display: block;
-        cursor: pointer;
     }
-    .menu {
-        text-align: center;
+
+    .navigation ul {
+        position: fixed;
         width: 100%;
-        display: none;
+        height: 100vh;
+        background: #353628;
+        top: 80px;
+        left: -100%;
+        text-align: center;
+        transition: all .5s;
     }
-    .menu a {
+
+    .navigation ul li {
         display: block;
-        border-bottom: 1px solid #EAEAEB;
-        margin: 0;
-     
+        margin: 50px 0;
+        line-height: 30px;
     }
-    #toggle:checked + .menu {
-        display: block;
-    }  
+
+    .navigation ul li a {
+        font-size: 20px;
+        color: #fff;
+    }
+
+    .active,.navigation a:hover {
+        background: none;
+        color: #ef733e;
+    }
+
+    #check:checked ~ ul{
+        left: 0;
+    }
 }
 
-a:hover {
-    border-bottom:1px solid#353628;
-}
 
-.active {
-   border-bottom:1px solid#353628; 
-}
+
+
+
+
 
 /* ---------------------------------------------------------------- banner */
 
