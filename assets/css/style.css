@@ -133,45 +133,51 @@ a:hover {
 
 /* ---------------------------------------------------------------- buttons */
 #select-user {
-    padding-top: 30px;
+    padding-top: 20px;
 }
 
-.btn--cta {
+.btn--select-user {
   font-weight: bold;
   border-radius: 40px;
-  width: 300px;
   height: 60px;
+  width: 300px;
   padding-top: 10px;
- }
-
-.btn--green {
   color: white;
   background-color: #353628;
   border-color: #353628;
+  text-align: center;
+  margin: 10px;
 }
 
-.btn--green:hover,
-.btn--green:active,
-.btn--green:focus,
-.btn--green:active:focus {
+.btn--select-user:hover,
+.btn--select-user:active,
+.btn--select-user:focus,
+.btn--select-user:active:focus {
   background-color: #ef733e;
   border-color: #ef733e;
   color: white;
 }
 
-.buttons {
+#select-user ul {
+    width: 100%;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
     display: flex;
+    flex-direction: row; 
+    flex-wrap: wrap;
     justify-content: center;
-
 }
 
-@media (max-width: 500px) {
-    .buttons {
+@media screen and (max-width: 1200px) {
+    #select-user ul {
         display: flex;
         flex-direction: column;
-        align-items: center;
+        flex-wrap;
         justify-content: center;
+        align-items: center;
     }
+
 }
 
 /* ---------------------------------------------------------------- end buttons */
