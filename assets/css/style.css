@@ -202,10 +202,11 @@ dl, ol, ul {
 }
 
 .h3-about {
-    display: flex;
-    flex-direction: row; 
-    flex-wrap: wrap;
-    justify-content: center;
+    text-align: center;
+}
+
+.p-about {
+    text-align: justify;
 }
 /* ---------------------------------------------------------------- END ABOUT */
 
