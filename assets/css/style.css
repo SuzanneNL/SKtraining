@@ -195,6 +195,20 @@ dl, ol, ul {
     justify-content: center;
 }
 /* ---------------------------------------------------------------- END BUTTONS */
+/* ---------------------------------------------------------------- ABOUT */
+.about {
+    padding: 1rem;
+    font-size: 1rem;
+}
+
+.h3-about {
+    display: flex;
+    flex-direction: row; 
+    flex-wrap: wrap;
+    justify-content: center;
+}
+/* ---------------------------------------------------------------- END ABOUT */
+
 /* ---------------------------------------------------------------- FOOTER */
 footer {
     background-color: #353628;
