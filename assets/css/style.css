@@ -85,43 +85,6 @@ label {
     display: none;
 }
 
-@media (max-width: 858px) {
-    .checkbtn {
-        display: block;
-    }
-
-    .navigation ul {
-        position: fixed;
-        width: 100%;
-        height: 100vh;
-        background: #353628;
-        top: 80px;
-        left: -100%;
-        text-align: center;
-        transition: all .5s;
-        z-index: 1;
-    }
-
-    .navigation ul li {
-        display: block;
-        margin: 50px 0;
-        line-height: 30px;
-    }
-
-    .navigation ul li a {
-        font-size: 20px;
-        color: #fff;
-    }
-
-    .active,.navigation a:hover {
-        background: none;
-        color: #ef733e;
-    }
-
-    #check:checked ~ ul{
-        left: 0;
-    }
-}
 
 dl, ol, ul {
     margin-bottom: 0px;
@@ -241,6 +204,8 @@ input[type=submit]:hover {
   border-radius: 5px;
   background-color: #fafafa;
   padding: 20px;
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
 
 /* ---------------------------------------------------------------- END CONTACT FORM */
@@ -268,6 +233,11 @@ footer {
   padding: 3%;
   color: #fff;
 }
+
+.social-links li a i:hover {
+    color: #ef733e;
+}
+
 /* ---------------------------------------------------------------- END FOOTER */
 /* ---------------------------------------------------------------- MEDIA QUERIES */
 @media screen and (max-width: 1200px) {
@@ -282,5 +252,43 @@ footer {
 @media screen and (min-width: 1200px) { 
     .banner-container {
         height: 35em;
+    }
+}
+
+@media (max-width: 858px) {
+    .checkbtn {
+        display: block;
+    }
+
+    .navigation ul {
+        position: fixed;
+        width: 100%;
+        height: 100vh;
+        background: #353628;
+        top: 80px;
+        left: -100%;
+        text-align: center;
+        transition: all .5s;
+        z-index: 1;
+    }
+
+    .navigation ul li {
+        display: block;
+        margin: 50px 0;
+        line-height: 30px;
+    }
+
+    .navigation ul li a {
+        font-size: 20px;
+        color: #fff;
+    }
+
+    .active,.navigation a:hover {
+        background: none;
+        color: #ef733e;
+    }
+
+    #check:checked ~ ul{
+        left: 0;
     }
 }
