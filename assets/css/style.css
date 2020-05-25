@@ -15,6 +15,7 @@ body {
     flex-direction: column;
 }
 /* ---------------------------------------------------------------- HEADER */
+/* inspired by: https://www.youtube.com/watch?v=oLgtucwjVII&feature=youtu.be */
 header {
     border-top: 8px solid #353628;
 }
@@ -121,12 +122,15 @@ label {
         left: 0;
     }
 }
+
+dl, ol, ul {
+    margin-bottom: 0px;
+} 
 /* ---------------------------------------------------------------- END HEADER */
 /* ---------------------------------------------------------------- BANNER */
+/* - Banner inspired by: https://jorgan-source.github.io/MilestoneProject1JOrgan/ -*/
 .banner-container{
     background: url(../images/banner.jpg) no-repeat center; 
-    -moz-background-size: cover;
-    -o-background-size: cover;
     background-size: cover;
     display: flex;
     align-items: center;
@@ -134,6 +138,7 @@ label {
     position: relative;
     border-top: 8px solid #353628;
     border-bottom: 8px solid #353628;
+    
 }
 
 #banner {
@@ -189,17 +194,6 @@ label {
     flex-wrap: wrap;
     justify-content: center;
 }
-
-@media screen and (max-width: 1200px) {
-    #select-user ul {
-        display: flex;
-        flex-direction: column;
-        flex-wrap;
-        justify-content: center;
-        align-items: center;
-    }
-
-}
 /* ---------------------------------------------------------------- END BUTTONS */
 /* ---------------------------------------------------------------- FOOTER */
 footer {
@@ -226,3 +220,18 @@ footer {
   color: #fff;
 }
 /* ---------------------------------------------------------------- END FOOTER */
+/* ---------------------------------------------------------------- MEDIA QUERIES */
+@media screen and (max-width: 1200px) {
+    #select-user ul {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+@media screen and (min-width: 1200px) { 
+    .banner-container {
+        height: 35em;
+    }
+}
