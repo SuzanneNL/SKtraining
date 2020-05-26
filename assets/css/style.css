@@ -172,6 +172,21 @@ dl, ol, ul {
     text-align: justify;
 }
 /* ---------------------------------------------------------------- END ABOUT */
+/* ---------------------------------------------------------------- COURSES */
+.container-courses {
+    margin-top: 30px;
+    margin-bottom: 30px;  
+    text-align: justify;
+}
+
+
+@media screen and (max-width: 1200px) {
+    .courses-details {
+        text-align: center;
+    }
+}
+
+/* ---------------------------------------------------------------- END COURSES */
 /* ---------------------------------------------------------------- FEES */
 .page-title {
     text-align: center;
