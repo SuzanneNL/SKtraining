@@ -40,7 +40,7 @@ label {
     font-size: 35px;
     line-height: 80px;
     padding: 0 30px;
-
+    cursor: pointer;
 }
 
 .navigation ul {
@@ -65,7 +65,7 @@ label {
     text-transform: uppercase;
 }
 
-.active,.navigation a:hover {
+.active,.menu-item a:hover {
     text-decoration: none;
     background: #ef733e;
     transition: .5s;
