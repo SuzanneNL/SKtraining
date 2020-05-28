@@ -15,7 +15,7 @@ body {
     flex-direction: column;
 }
 /* ---------------------------------------------------------------- HEADER */
-/* inspired by: https://www.youtube.com/watch?v=oLgtucwjVII&feature=youtu.be */
+/* Header created with help from https://www.youtube.com/watch?v=oLgtucwjVII&feature=youtu.be and adjusted to fit the SK Training website*/
 header {
     border-top: 8px solid #353628;
 }
@@ -91,7 +91,7 @@ dl, ol, ul {
 } 
 /* ---------------------------------------------------------------- END HEADER */
 /* ---------------------------------------------------------------- BANNER */
-/* Inspired by: https://jorgan-source.github.io/MilestoneProject1JOrgan/ -*/
+/* Banner created with help from https://jorgan-source.github.io/MilestoneProject1JOrgan/ and adjusted to fit the SK Training website-*/
 .banner-container{
     background: url(../images/banner.jpg) no-repeat center; 
     background-size: cover;
@@ -233,7 +233,7 @@ hr {
 /* ---------------------------------------------------------------- END FEES */
 
 /* ---------------------------------------------------------------- CONTACT FORM /SIGN IN */
-/* Inspired by: https://www.w3schools.com/howto/howto_css_contact_form.asp */
+/* Contact and sign in form created with help from https://www.w3schools.com/howto/howto_css_contact_form.asp and adjusted to fit the SK Training website*/
 
 input[type=text], input[type=password], select, textarea {
   width: 100%;
@@ -351,3 +351,5 @@ footer {
         left: 0;
     }
 }
+
+/* ---------------------------------------------------------------- END MEDIA QUERIES */
