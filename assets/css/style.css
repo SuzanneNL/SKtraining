@@ -245,7 +245,9 @@ input[type=text], select, textarea {
   margin-bottom: 15px;
 }
 
-
+#subject {
+    height: 200px;
+}
 .form-container {
   border-radius: 5px;
   background-color: #fafafa;
@@ -254,8 +256,9 @@ input[type=text], select, textarea {
   margin-bottom: 10px;
 }
 
-#subject {
-    height: 200px;
+.contact-information {
+    padding-top: 20px;
+    text-align: center;
 }
 
 /* ---------------------------------------------------------------- END CONTACT FORM */
