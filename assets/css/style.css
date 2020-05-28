@@ -232,10 +232,10 @@ hr {
     }
 /* ---------------------------------------------------------------- END FEES */
 
-/* ---------------------------------------------------------------- CONTACT FORM */
+/* ---------------------------------------------------------------- CONTACT FORM /SIGN IN */
 /* Inspired by: https://www.w3schools.com/howto/howto_css_contact_form.asp */
 
-input[type=text], select, textarea {
+input[type=text], input[type=password], select, textarea {
   width: 100%;
   padding: 10px;
   border: 1px solid #ccc;
@@ -262,6 +262,8 @@ input[type=text], select, textarea {
 }
 
 /* ---------------------------------------------------------------- END CONTACT FORM */
+
+
 /* ---------------------------------------------------------------- FOOTER */
 footer {
     background-color: #353628;
