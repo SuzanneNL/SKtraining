@@ -157,6 +157,20 @@ dl, ol, ul {
     flex-wrap: wrap;
     justify-content: center;
 }
+
+input[type=submit] {
+  background-color: #353628;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #ef733e;
+}
+
 /* ---------------------------------------------------------------- END BUTTONS */
 /* ---------------------------------------------------------------- ABOUT */
 .about {
@@ -231,18 +245,6 @@ input[type=text], select, textarea {
   margin-bottom: 15px;
 }
 
-input[type=submit] {
-  background-color: #353628;
-  color: white;
-  padding: 12px 20px;
-  border: none;
-  border-radius: 4px;
-  cursor: pointer;
-}
-
-input[type=submit]:hover {
-  background-color: #ef733e;
-}
 
 .form-container {
   border-radius: 5px;
