@@ -185,6 +185,11 @@ input[type=submit]:hover {
 .p-about {
     text-align: justify;
 }
+
+.link-in-text {
+    color: inherit;
+}
+
 /* ---------------------------------------------------------------- END ABOUT */
 /* ---------------------------------------------------------------- COURSES */
 .container-courses {
