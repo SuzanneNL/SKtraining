@@ -200,12 +200,6 @@ input[type=submit]:hover {
 }
 
 
-@media screen and (max-width: 1200px) {
-    .courses-details {
-        text-align: center;
-    }
-}
-
 /* ---------------------------------------------------------------- END COURSES */
 /* ---------------------------------------------------------------- FEES */
 .page-title {
@@ -356,5 +350,12 @@ footer {
         left: 0;
     }
 }
+
+@media screen and (max-width: 1200px) {
+    .courses-details {
+        text-align: center;
+    }
+}
+
 
 /* ---------------------------------------------------------------- END MEDIA QUERIES */
