@@ -80,7 +80,10 @@
         <input type="email" id="email" name="email" placeholder="Your e-mail address" required/>
         <label for="subject"><b>Message</b></label>
         <textarea id="subject" name="subject" placeholder="Please write your message." required></textarea>
-        <input type="submit" value="Send"/>
+        <input type="submit" value="Send" onclick="popup()" autocomplete="off"/>
+        <script>
+        function popup(){alert("Thank you for your message. We will be in touch soon")}
+        </script>
       </form>
     </div>
     <!----------------------------------------END CONTACT---------------------------------------->
