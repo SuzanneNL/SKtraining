@@ -231,7 +231,6 @@ hr {
     font-size: 30px;
     }
 /* ---------------------------------------------------------------- END FEES */
-
 /* ---------------------------------------------------------------- CONTACT FORM /SIGN IN */
 /* Contact and sign in form created with help from https://www.w3schools.com/howto/howto_css_contact_form.asp and adjusted to fit the SK Training website*/
 
@@ -266,8 +265,6 @@ input[type=text], input[type=password], select, textarea {
 }
 
 /* ---------------------------------------------------------------- END CONTACT FORM */
-
-
 /* ---------------------------------------------------------------- FOOTER */
 footer {
     background-color: #353628;
@@ -287,7 +284,7 @@ footer {
 }
 
 .social-links i {
-  font-size: 100%;
+  font-size: 1.25rem;
   padding: 3%;
   color: #fff;
 }
@@ -356,6 +353,4 @@ footer {
         text-align: center;
     }
 }
-
-
 /* ---------------------------------------------------------------- END MEDIA QUERIES */
