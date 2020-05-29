@@ -123,6 +123,7 @@ dl, ol, ul {
 /* ---------------------------------------------------------------- BUTTONS */
 #select-user {
     padding-top: 20px;
+    padding-bottom: 20px
 }
 
 .btn--select-user {
@@ -280,8 +281,6 @@ footer {
     padding: 0;
     margin-top: auto;
     text-align: center;
-    height: 90px;
-    line-height: 90px;
 }
 
 .social-links {
@@ -314,7 +313,7 @@ footer {
     }
 }
 
-@media screen and (min-width: 1200px) { 
+@media screen and (min-width: 900px) { 
     .banner-container {
         height: 35em;
     }
