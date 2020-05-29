@@ -234,7 +234,7 @@ hr {
 /* ---------------------------------------------------------------- CONTACT FORM /SIGN IN */
 /* Contact and sign in form created with help from https://www.w3schools.com/howto/howto_css_contact_form.asp and adjusted to fit the SK Training website*/
 
-input[type=text], input[type=password], select, textarea {
+input[type=text], input[type=password], input[type=email], select, textarea {
   width: 100%;
   padding: 10px;
   border: 1px solid #ccc;
