@@ -280,7 +280,8 @@ footer {
     padding: 0;
     margin-top: auto;
     text-align: center;
-
+    height: 70px;
+    line-height: 70px;
 }
 
 .social-links {
