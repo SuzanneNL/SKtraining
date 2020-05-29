@@ -348,7 +348,7 @@ footer {
     }
 }
 
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 767px) {
     .courses-details {
         text-align: center;
     }
