@@ -104,6 +104,7 @@ dl, ol, ul {
     justify-content: center;
     position: relative;
     border-bottom: 8px solid #353628; 
+    margin-top: 96px;
 }
 
 #banner {
