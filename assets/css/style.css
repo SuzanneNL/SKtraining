@@ -18,6 +18,10 @@ body {
 /* Header created with help from https://www.youtube.com/watch?v=oLgtucwjVII&feature=youtu.be and adjusted to fit the SK Training website*/
 header {
     border-top: 8px solid #353628;
+    border-bottom: 8px solid #353628;
+    position: fixed;
+    z-index: 1;
+    width: 100%;
 }
 
 label {
@@ -52,7 +56,7 @@ label {
 
 .navigation ul li {
     display: inline-block;
-    line-height: 80px;
+    line-height: 79px;
     margin: 0 px;
 }
 
@@ -99,9 +103,7 @@ dl, ol, ul {
     align-items: center;
     justify-content: center;
     position: relative;
-    border-top: 8px solid #353628;
-    border-bottom: 8px solid #353628;
-    
+    border-bottom: 8px solid #353628; 
 }
 
 #banner {
