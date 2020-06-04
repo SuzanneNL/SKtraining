@@ -268,7 +268,7 @@ input[type=text], input[type=password], input[type=email], select, textarea {
 }
 
 /* ---------------------------------------------------------------- END CONTACT FORM */
-
+/* ---------------------------------------------------------------- RESUME */
 .timeline-c {
     padding: 2rem;
     font-size: 1.25rem;
@@ -317,7 +317,6 @@ input[type=text], input[type=password], input[type=email], select, textarea {
 .timeline .timeline-date span {
     display: inline-block;
     font-weight: bold;
-    color: #353628;
     padding: .2rem .4rem;
     margin: -4px 0 1rem 0;
 }
@@ -326,6 +325,13 @@ input[type=text], input[type=password], input[type=email], select, textarea {
     flex: 1;
     margin: 0 0 2rem 0;
 }
+.timeline-info h4 {
+    font-weight: 500;
+}
+.timeline-info p {
+    margin-bottom: 8px;
+}
+/* ---------------------------------------------------------------- END RESUME */
 /* ---------------------------------------------------------------- FOOTER */
 footer {
     background-color: #353628;
