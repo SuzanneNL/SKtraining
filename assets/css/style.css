@@ -421,4 +421,18 @@ footer {
         text-align: center;
     }
 }
+
+@media (min-width: 768px) {
+    .timeline {
+        flex-direction: row;
+        padding: 0;
+    }
+
+    .timeline:before {
+        left: 10rem;
+    }
+
+    .timeline:after {
+        left: 10.65rem;
+    }
 /* ---------------------------------------------------------------- END MEDIA QUERIES */
