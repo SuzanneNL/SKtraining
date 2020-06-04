@@ -435,4 +435,13 @@ footer {
     .timeline:after {
         left: 10.65rem;
     }
+
+        .timeline .timeline-date .span2 {
+    margin: -4px 28.75px 1rem 0;
+    }
+
+    .timeline .timeline-date .span3 {
+    margin: -4px 25.43px 1rem 0;
+    }
+}
 /* ---------------------------------------------------------------- END MEDIA QUERIES */
