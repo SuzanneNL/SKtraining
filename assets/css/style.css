@@ -268,6 +268,64 @@ input[type=text], input[type=password], input[type=email], select, textarea {
 }
 
 /* ---------------------------------------------------------------- END CONTACT FORM */
+
+.timeline-c {
+    padding: 2rem;
+    font-size: 1.25rem;
+    line-height: 1.5 rem;
+}
+
+.timeline {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    padding-left: 2rem;
+}
+
+.timeline:before {
+    display: inline-block;
+    position: absolute;
+    content: "";
+    top: 0;
+    left: 0;
+    height: 1.5rem;
+    width: 1.5rem;
+    border: 2px solid #353628;
+    border-radius: 50%;
+    background: #ef733e;
+    z-index: 1;
+}
+
+.timeline:after {
+    content: "";
+    border-left: 2px solid #353628;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0.7rem;
+    z-index: 0;
+}
+
+.timeline h4 {
+    text-transform: uppercase;
+}
+
+.timeline .timeline-date {
+    padding-right: 3rem;
+}
+
+.timeline .timeline-date span {
+    display: inline-block;
+    font-weight: bold;
+    color: #353628;
+    padding: .2rem .4rem;
+    margin: -4px 0 1rem 0;
+}
+
+.timeline .timeline-info {
+    flex: 1;
+    margin: 0 0 2rem 0;
+}
 /* ---------------------------------------------------------------- FOOTER */
 footer {
     background-color: #353628;
