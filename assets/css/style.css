@@ -269,8 +269,9 @@ input[type=text], input[type=password], input[type=email], select, textarea {
 
 /* ---------------------------------------------------------------- END CONTACT FORM */
 /* ---------------------------------------------------------------- RESUME */
+
 .timeline-c {
-    padding: 2rem;
+    padding: 1rem;
     font-size: 1.25rem;
     line-height: 1.5 rem;
 }
@@ -314,6 +315,7 @@ input[type=text], input[type=password], input[type=email], select, textarea {
     padding-right: 3rem;
 }
 
+
 .timeline .timeline-date span {
     display: inline-block;
     font-weight: bold;
@@ -321,16 +323,21 @@ input[type=text], input[type=password], input[type=email], select, textarea {
     margin: -4px 0 1rem 0;
 }
 
+
 .timeline .timeline-info {
     flex: 1;
     margin: 0 0 2rem 0;
 }
+
 .timeline-info h4 {
     font-weight: 500;
 }
 .timeline-info p {
     margin-bottom: 8px;
 }
+
+
+
 /* ---------------------------------------------------------------- END RESUME */
 /* ---------------------------------------------------------------- FOOTER */
 footer {
@@ -442,12 +449,29 @@ footer {
         left: 10.65rem;
     }
 
-        .timeline .timeline-date .span2 {
+    .timeline .timeline-date .span1 {
+    margin: -4px 27.68px 1rem 0;
+    }
+
+     .timeline .timeline-date .span2 {
+    margin: -4px 28.46px 1rem 0;
+    }
+
+     .timeline .timeline-date .span3 {
+    margin: -4px 25.43px 1rem 0;
+    }
+
+     .timeline .timeline-date .span4 {
+    margin: -4px 22.18px 1rem 0;
+    }
+
+    .timeline .timeline-date .span5 {
     margin: -4px 28.75px 1rem 0;
     }
 
-    .timeline .timeline-date .span3 {
+    .timeline .timeline-date .span6 {
     margin: -4px 25.43px 1rem 0;
     }
 }
+
 /* ---------------------------------------------------------------- END MEDIA QUERIES */
