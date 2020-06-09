@@ -336,12 +336,22 @@ input[type=text], input[type=password], input[type=email], select, textarea {
     margin-bottom: 8px;
 }
 
+.timeline-info p {
+    margin-bottom: 0px;
+    font-size: 16px;
+    text-align: justify;
+}
+
 .col-md-2 {
         padding: 10px;
 }
 .container-resume {
      padding-bottom: 30px;
  }
+
+#logos {
+    text-align: center;
+}
 
 
 /* ---------------------------------------------------------------- END RESUME */
@@ -448,6 +458,10 @@ footer {
     .courses-details {
         text-align: center;
     }
+
+    #logos {
+    text-align: justify;
+    }
 }
 
 @media (min-width: 768px) {
@@ -488,5 +502,7 @@ footer {
     margin: -4px 25.43px 1rem 0;
     }
 }
+
+
 
 /* ---------------------------------------------------------------- END MEDIA QUERIES */
