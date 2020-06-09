@@ -214,7 +214,7 @@ input[type=submit]:hover {
 hr {
     margin: auto;
     width: 160px;
-    border-top: 6px solid #ef733e;
+    border-top: 4px solid #ef733e;
 }
 
 .container-fees {
