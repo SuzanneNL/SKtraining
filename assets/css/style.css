@@ -336,6 +336,12 @@ input[type=text], input[type=password], input[type=email], select, textarea {
     margin-bottom: 8px;
 }
 
+.col-md-2 {
+        padding: 10px;
+}
+.container-resume {
+     padding-bottom: 30px;
+ }
 
 
 /* ---------------------------------------------------------------- END RESUME */
