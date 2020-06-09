@@ -17,8 +17,8 @@ body {
 /* ---------------------------------------------------------------- HEADER */
 /* Header created with help from https://www.youtube.com/watch?v=oLgtucwjVII&feature=youtu.be and adjusted to fit the SK Training website*/
 header {
-    border-top: 8px solid #353628;
-    border-bottom: 8px solid #353628;
+    border-top: 4px solid #353628;
+    border-bottom: 4px solid #353628;
     position: fixed;
     z-index: 2;
     width: 100%;
@@ -31,7 +31,7 @@ label {
 .navigation {
     box-sizing: border-box;
     background: #fafafa;
-    height: 80px;
+    height: 60px;
     width: 100%;
 }
 
@@ -42,7 +42,7 @@ label {
     letter-spacing: 2px;
     color: #353628;
     font-size: 35px;
-    line-height: 80px;
+    line-height: 60px;
     padding: 0 30px;
     cursor: pointer;
 }
@@ -56,7 +56,7 @@ label {
 
 .navigation ul li {
     display: inline-block;
-    line-height: 79px;
+    line-height: 59px;
     margin: 0 px;
 }
 
@@ -79,7 +79,7 @@ label {
     font-size: 30px;
     color: #353628;
     float: right;
-    line-height: 80px;
+    line-height: 60px;
     margin-right: 40px;
     cursor: pointer;
     display: none;
@@ -103,8 +103,8 @@ dl, ol, ul {
     align-items: center;
     justify-content: center;
     position: relative;
-    border-bottom: 8px solid #353628; 
-    margin-top: 96px;
+    border-bottom: 4px solid #353628; 
+    margin-top: 68px;
 }
 
 #banner {
@@ -419,7 +419,7 @@ footer {
         width: 100%;
         height: 100vh;
         background: #353628;
-        top: 80px;
+        top: 60px;
         left: -100%;
         text-align: center;
         transition: all .5s;
