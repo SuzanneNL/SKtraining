@@ -400,13 +400,13 @@ footer {
     }
 }
 
-@media screen and (min-width: 900px) { 
+@media screen and (min-width: 1024px) { 
     .banner-container {
         height: 35em;
     }
 }
 
-@media (max-width: 858px) {
+@media screen and (max-width: 858px) {
     .checkbtn {
         display: block;
     }
@@ -450,7 +450,6 @@ footer {
     }
 }
 
-
 @media screen and (max-width: 767px) {
     .courses-details {
         text-align: center;
@@ -461,7 +460,7 @@ footer {
     }
 }
 
-@media (min-width: 768px) {
+@media screen and (min-width: 768px) {
     .timeline {
         flex-direction: row;
         padding: 0;
