@@ -379,7 +379,12 @@ footer {
   color: #fff;
 }
 
+.social-links a {
+    text-decoration: none;
+}
+
 .social-links li a i:hover {
+    text-decoration: none;
     color: #ef733e;
 }
 
