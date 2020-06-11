@@ -13,8 +13,11 @@ body {
     display: flex;
     flex-direction: column;
 }
+
 /* ---------------------------------------------------------------- HEADER */
+
 /* Header created with help from https://www.youtube.com/watch?v=oLgtucwjVII&feature=youtu.be and adjusted to fit the SK Training website*/
+
 header {
     border-top: 4px solid #353628;
     border-bottom: 4px solid #353628;
@@ -94,9 +97,12 @@ label {
 dl, ol, ul {
     margin-bottom: 0;
 } 
+
 /* ---------------------------------------------------------------- END HEADER */
+
 /* ---------------------------------------------------------------- BANNER */
 /* Banner created with help from https://jorgan-source.github.io/MilestoneProject1JOrgan/ and adjusted to fit the SK Training website-*/
+
 .banner-container{
     background: url(../images/banner.jpg) no-repeat center; 
     background-size: cover;
@@ -123,8 +129,11 @@ dl, ol, ul {
     letter-spacing: 2px;
     font-size: 30px;
 }
+
 /* ---------------------------------------------------------------- END BANNER */
+
 /* ---------------------------------------------------------------- BUTTONS */
+
 #select-user {
     padding-top: 20px;
     padding-bottom: 20px
@@ -175,8 +184,11 @@ input[type=submit] {
 input[type=submit]:hover {
   background-color: #ef733e;
 }
+
 /* ---------------------------------------------------------------- END BUTTONS */
+
 /* ---------------------------------------------------------------- ABOUT */
+
 .about {
     padding: 1rem;
     font-size: 1rem;
@@ -193,15 +205,21 @@ input[type=submit]:hover {
 .link-in-text {
     color: inherit;
 }
+
 /* ---------------------------------------------------------------- END ABOUT */
+
 /* ---------------------------------------------------------------- COURSES */
+
 .container-courses {
     margin-top: 30px;
     margin-bottom: 30px;  
     text-align: justify;
 }
+
 /* ---------------------------------------------------------------- END COURSES */
+
 /* ---------------------------------------------------------------- FEES */
+
 .page-title {
     text-align: center;
     text-transform: uppercase;
@@ -231,9 +249,13 @@ hr {
 .col-fees i {
     font-size: 30px;
 }
+
 /* ---------------------------------------------------------------- END FEES */
+
 /* ---------------------------------------------------------------- CONTACT FORM /SIGN IN */
+
 /* Contact and sign in form created with help from https://www.w3schools.com/howto/howto_css_contact_form.asp and adjusted to fit the SK Training website*/
+
 input[type=text], input[type=password], input[type=email], select, textarea {
   width: 100%;
   padding: 10px;
@@ -261,11 +283,10 @@ input[type=text], input[type=password], input[type=email], select, textarea {
     text-align: center;
 }
 
-#forgotpw {
-    padding: 10px;
-}
 /* ---------------------------------------------------------------- END CONTACT FORM */
+
 /* ---------------------------------------------------------------- RESUME */
+
 .timeline-c {
     padding: 1rem;
     font-size: 1.25rem;
@@ -348,8 +369,11 @@ input[type=text], input[type=password], input[type=email], select, textarea {
 #logos {
     text-align: center;
 }
+
 /* ---------------------------------------------------------------- END RESUME */
+
 /* ---------------------------------------------------------------- FOOTER */
+
 footer {
     background-color: #353628;
     color: #fafafa;
@@ -380,8 +404,11 @@ footer {
     text-decoration: none;
     color: #ef733e;
 }
+
 /* ---------------------------------------------------------------- END FOOTER */
+
 /* ---------------------------------------------------------------- MEDIA QUERIES */
+
 @media screen and (max-width: 1200px) {
     #select-user ul {
         display: flex;
@@ -498,4 +525,5 @@ footer {
     margin: -4px 25.43px 1rem 0;
     }
 }
+
 /* ---------------------------------------------------------------- END MEDIA QUERIES */
