@@ -7,9 +7,9 @@ This website was created for educational purposes only.
 
 ## INTRODUCTION
 This is a website for a Dutch language teacher with a business called SK Training, Dutch language courses. The goal of this website is threefold: 
-1. to attract new students;
-2. to attract employers and get new assignments;
-3. to give current students access to an online platform. 
+1. Attract new students;
+2. Attract employers and get new assignments;
+3. Give current students access to an online platform. 
 
 To make sure a user doesn't lose interest by having to navigate through excessive information, the website has been designed in such a way, that a user will only see information that is relevant for him. To achieve this, the user will have to make a choice when first accessing the website. There are three options: 
 1. 'I want to learn Dutch' gives access to part of the website that is meant to inform and attract potential new students for private or group lessons. 
@@ -104,6 +104,7 @@ Mock-ups for this website were created using Figma and can be found here.
 ### Features Left to Implement
 - The blackboard-like environment for students. 
 - Making the website available in other languages.
+- I would like to have a pop-up message appear after filling out the contact/login forms (in order for a button to both check if the required fields are filled out and have a pop-up message, I need Javascript.
 
 ## TECHNOLOGIES USED
 [HTML](https://developer.mozilla.org/en-US/docs/Web/HTML)
@@ -145,7 +146,6 @@ Am I Responsive was used to test the responsiveness of the website.
 - Verify that the menu bar sticks to the top of the screen by scrolling down the pages. 
 - Verify that all buttons, menu items and social links have a hover-effect, being that changing the mouse into a pointer or changing the (background) color of the item.
 
-
 ### Home page (index.html)
 - Click on the button 'I want to learn Dutch' and verify that it directs to the learner-about page. 
 - Click on the button 'I'm an employer' and verify that it directs to the employer-about page.
@@ -174,9 +174,9 @@ Am I Responsive was used to test the responsiveness of the website.
 - Verify that by clicking on the logos, the user is directed to the website of the company in a new tab. 
 
 ### General
-- Testing was done by myself, my fellow student Marc Gulliver, my husband, my family and friends. 
+- Testing was done by myself, my mentor Seun Owonikoko, my fellow student Marc Gulliver, my husband, my family and my Dutch and non-Dutch friends. 
 - Testing to see if the website adjusts itself to the size of the device was done by using the Chrome DevTool and Am I Responsive, my personal devices (Lenco Wide Screen, Huawei P30), my families and friends devices.
-- Code was validated by https://validator.w3.org/ and https://jigsaw.w3.org/css-validator/
+- Code was validated by https://validator.w3.org/ and https://jigsaw.w3.org/css-validator/, and beautified using https://www.freeformatter.com/html-formatter.html.
 - The final version of the website was tested in different browsers. The website works correctly in Chrome, Mozilla, Opera and Safari (this last browser was tested through https://www.browserstack.com/). But in Internet Explorer, on the home page the footer is not pushed down to the bottom. This has not been corrected. 
 
 ## DEPLOYMENT
