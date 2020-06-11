@@ -18,11 +18,21 @@ To make sure a user doesn't lose interest by having to navigate through excessiv
 This website can be viewed on desktop computer size monitors, tablets and mobile devices. It is hosted on GitHub Pages and can be viewed here.
 
 ## UX
-### Goals
+### Goal/Strategy
 The goal of this website is threefold: 
-1. to attract new students;
-2. to attract employers and get new assignments;
-3. to give current students access to an online platform. Having this platform makes sharing files and communicating with students more efficient and organized. 
+1. Attract new students and present them all the information they need to decide to follow classes at SKTraining;
+2. Attract employers (language schools or companies that want in-company training), by presenting them with all the information they need to hire SKTraining;
+3. Give current students access to an online platform. Having this platform makes sharing files and communicating with students more efficient and organized.
+
+#### Scope
+An easy to navigate and responsive website that provides information about Dutch language courses at SKTraining. This consists of a description of the school and founder, a resume and information about the costs and details of the courses. Users can easily get in touch with SKTraining or request a free quote by filling out the contact form. 
+
+#### Structure
+The website consists of three main parts:
+- 'I want to learn Dutch' directs first to an about page where users can find a description of the school and founder. The courses page provides details about the courses and the fees page provides information about the fees. Finally, a user can contact SKTraining on the contact page.
+
+### Skeleton
+Wireframes were created using Figma. Links to these wireframes are available under 'wireframes'. Responsiveness concerns mostly turning horizontally presented information on desktops to vertically presented information on mobile devices. The design is consistent. 
 
 ### Target audiences
 - Adults interested in learning Dutch;
@@ -91,15 +101,18 @@ Mock-ups for this website were created using Figma and can be found here.
 
 ## FEATURES
 ### Existing Features
-- Documentation - ReadMe file.
-- Bootstrap - HTML, CSS, Framework:
-    - Grid System - Rows and colums
-    - Icons
-- Responsive design 
-- Accessibility
-- Git - version control system
-- Github - remote repository
-- Deployed - hosted on Github Pages
+- This website directs users to a section of the website that contains all information that is relevant for them. 
+- This website presents information about the company and its founder (including a resume for employers).
+- This website allows users to find details about the courses that are offered (and the fees for potential students).
+- This website allows users to easily contact SKTraining by filling out the contact form for more information or to get a free quote (for employers).
+- This website gives current students access to a blackboard-like environment (in the future) by logging in. 
+- Users can be directed to SKTraining's social websites, though the footer. 
+- Users can be directed to websites of companies that have hired SKTraining in the past.
+- This website consists of a navigation bar, logo, banner image and footer.
+- This website contains images, logos and icons.
+- This website was built using HTML, CSS and Bootstrap and has a responsive design. 
+- This website was built in GidPod and hosted by GitHub pages. 
+- Documentation
 
 ### Features Left to Implement
 - The blackboard-like environment for students. 
@@ -187,7 +200,9 @@ To deploy this project, the following steps were taken:
 3. Scroll down to 'GitHub pages'.
 4. Under 'source', click on the dropdown menu and select 'Master Branch'.
 5. Save. 
+
 Local Deployment
+
 To run this website on your personal device, you can follow these steps: 
 1.	Go to the repository SuzanneNL/SKtraining.
 2.	Click on 'clone or download'.
@@ -195,7 +210,6 @@ To run this website on your personal device, you can follow these steps:
 4.	Unzip the downloaded zip file.
 5.	Run the file 'index.html'.
 6.	The website will open in the default browser of your device.
-
 
 ## CREDITS
 ### Content
@@ -238,6 +252,7 @@ https://www.youtube.com/watch?v=NuJEtmbyEwI
 
 Creating a Readme file:
 https://github.com/Pattern-Projects/oireachtas-ifd-project/tree/master
+https://github.com/sohailshams/explore-copenhagen
 
 Acknowledgements
 I received inspiration for this project from colleague teachers that built their own websites:
