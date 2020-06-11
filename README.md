@@ -130,10 +130,13 @@ CSS was used to add style to the website.
 Bootstrap was used for making the website responsive and fit for mobile use.
 
 [Google Chrome](https://www.google.com/chrome/)
-Chrome was used for the Chrome DevTools and as a browser
+Chrome was used for the Chrome DevTools and as a browser.
 
 [Google Fonts](https://fonts.google.com/)
-Google Fonts was used to select the font type ... 
+Google Fonts was used to select font types Raleway and Oswald. 
+
+[Git](https://git-scm.com/)
+Git was used for Version Control
 
 [GitHub](https://github.com/)
 The repository is hosted on Github. 
