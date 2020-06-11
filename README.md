@@ -69,7 +69,7 @@ As a potential new student...
 - I want to be able to understand the information on this website. 
 (Many websites offering Dutch language courses are actually in Dutch, making it difficult for foreigners to understand the information. And foreigners are the targeted audience of this website! Therefore, the website is in English. Expanding the project could be done by presenting the information in multiple languages. But unless they are (near- )native English speakers, too much information can be confusing. Also, a large group of language learners is 'digitally illiterate'. Use of a simple website structure, pictures, icons and bullet points will guide a user to the right parts of the website and provide the information that is relevant.)
 - I want to know who my teacher would be and why she can be trusted. 
-(Pictures of the teacher and happy students combined with a short "about me" explaining that I'm a certified Dutch language teacher, create confidence that the teacher is friendly and qualified to teach Dutch, and that students are content.)
+(Pictures of the teacher and happy students combined with a short "about me" explaining that Sanne Kroon a certified Dutch language teacher, create confidence that the teacher is friendly and qualified to teach Dutch, and that students are content.)
 - I want to know when and where classes are given, so that this will fit into my personal schedule.
 - I want to know how much the courses cost, so that I can decide if this fits in my budget. 
 - I want to be able to easily contact the teacher so that I can ask for more information or request a first meeting. 
