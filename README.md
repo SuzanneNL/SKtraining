@@ -1,6 +1,7 @@
 # SK TRAINING - DUTCH LANGUAGE COURSES
 ## Milestone project no.1
 ### User Centric Frontend Development Milestone Project
+#### https://suzannenl.github.io/SKtraining/
 This website was created for educational purposes only.
 ![Responsive views of website](documentation/responsive.png)
 
