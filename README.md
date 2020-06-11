@@ -2,7 +2,7 @@
 ## Milestone project no.1
 ### User Centric Frontend Development Milestone Project
 This website was created for educational purposes only
-
+![Responsive views of website](documentation/responsive.png)
 
 ## INTRODUCTION
 This is a website for a Dutch language teacher with a business called SK Training, Dutch language courses. The goal of this website is threefold: 
