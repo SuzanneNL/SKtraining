@@ -254,7 +254,7 @@ Creating a Readme file:
 https://github.com/Pattern-Projects/oireachtas-ifd-project/tree/master
 https://github.com/sohailshams/explore-copenhagen
 
-###Acknowledgements
+### Acknowledgements
 I received inspiration for this project from colleague teachers that built their own websites:
 - www.ant2maarmee.nl/
 - www.av-taaltraining.nl 
