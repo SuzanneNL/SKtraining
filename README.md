@@ -1,7 +1,7 @@
 # SK TRAINING - DUTCH LANGUAGE COURSES
 ## Milestone project no.1
 ### User Centric Frontend Development Milestone Project
-This website was created for educational purposes only
+This website was created for educational purposes only.
 ![Responsive views of website](documentation/responsive.png)
 
 ## INTRODUCTION
@@ -77,6 +77,7 @@ Three main colors are used throughout, matching with the image:
 - ![#434627](https://placehold.it/15/434627/000000?text=+) #434627 green 'woodland' 
 - ![#ef733e](https://placehold.it/15/ef733e/000000?text=+) #ef733e orange 'jaffa' (I deliberately chose orange because it's the Dutch national color)
 - ![#777777](https://placehold.it/15/777777/000000?text=+) #777777 grey 'boulder' 
+
 Font-families:
 - Raleway
 - Oswald
@@ -135,13 +136,65 @@ Figma was used to create wireframes.
 Am I Responsive was used to test the responsiveness of the website.
 
 ## TESTING
-- Do all links and buttons work and refer to the correct pages? This was tested by myself, my fellow student Marc Gulliver, my husband, my family and my friends, and also one of my NT2-students (target audience!). In case of errors or bugs, these were corrected. 
-- Does the website adjust itself to the size of the device? This was tested by myself using the Chrome DevTool and Am I Responsive, my personal devices (Lenco Wide Screen, Huawei P30, my families and friends devices.
+### All pages
+- Click on the name Sk Training at the top left and verify that it directs to the home page.
+- Click on the menu items at the top right and see that they direct to the corresponding pages. On a mobile device, verify that the media query works by checking if there's a toggle menu. Verify that the toggle menu goes over the background image (this was corrected using the z-index).
+- Click on the social links in the footer and verify that they direct to social network pages in a new tab.
+- Verify that the media query works by checking that the size of the background image adjusts to the size of the screen using the DevTool.
+- Verify that the menu bar sticks to the top of the screen by scrolling down the pages. 
+- Verify that all buttons, menu items and social links have a hover-effect, being that changing the mouse into a pointer or changing the (background) color of the item.
+
+
+### Home page (index.html)
+- Click on the button 'I want to learn Dutch' and verify that it directs to the learner-about page. 
+- Click on the button 'I'm an employer' and verify that it directs to the employer-about page.
+- Click on the button 'I'm a student' and verify that it directs to the login page for students. 
+- Verify that these buttons are aligned horizontally on desktops and vertically on mobile devices using the DevTool.
+
+### I want to learn Dutch - About (learner-about.html) & I'm an employer - About (employer-about.html)
+- Verify that all pictures load correctly.
+- Verify that the media query works by checking that the number of pictures goes down as the screen size gets smaller by using the DevTool.
+
+### I want to learn Dutch - Courses (learner-courses.html)
+- Verify that the media query works by checking that the icons and text are aligned horizontally on a desktop and vertically (and that the text is centered) on a mobile device using the DevTool.
+
+### I want to learn Dutch - Fees (learner-fees.html)
+- Verify that the media query works by checking that text blocks are aligned horizontally on a desktop and vertically on a mobile device using the DevTool.
+
+### I want to learn Dutch - Contact (learner-contact.html) & I'm an employer - Contact (employer-contact.html) & I'm a student (student-login.html)
+- Verify that all fields need to be filled out before submitting the form and that an error message is showed when this is not done.
+- Verify that the correct type of text (text/e-mail address/password) needs to be filled out and see that an error message is showed when this is not done.
+- Verify that the media query works by checking that the text is justified on smaller screens. 
+- Verify that a message pops up by clicking 'send' or 'login' and that after closing it, the user returns to the page.
+
+### I'm an employer - Resume (employer-resume.html)
+- Verify that the media query works by checking that the years are placed at the left side of the timeline on a desktop, and at the right and above the schools on a mobile device, using the DevTool.
+- Verify that the media query works by checking that the logos are aligned horizontally on a desktop and vertically on a mobile device using the DevTool.
+- Verify that by clicking on the logos, the user is directed to the website of the company in a new tab. 
+
+### General
+- Testing was done by myself, my fellow student Marc Gulliver, my husband, my family and friends. 
+- Testing to see if the website adjusts itself to the size of the device was done by using the Chrome DevTool and Am I Responsive, my personal devices (Lenco Wide Screen, Huawei P30), my families and friends devices.
 - Code was validated by https://validator.w3.org/ and https://jigsaw.w3.org/css-validator/
 - The final version of the website was tested in different browsers. The website works correctly in Chrome, Mozilla, Opera and Safari (this last browser was tested through https://www.browserstack.com/). But in Internet Explorer, on the home page the footer is not pushed down to the bottom. This has not been corrected. 
 
 ## DEPLOYMENT
 The website was coded in GitPod and then published using GitHub pages. 
+To deploy this project, the following steps were taken:
+1. Go to github.com and click on the repository SuzanneNL/SKtraining.
+2. At the top right of the page, click on 'settings'.
+3. Scroll down to 'GitHub pages'.
+4. Under 'source', click on the dropdown menu and select 'Master Branch'.
+5. Save. 
+Local Deployment
+To run this website on your personal device, you can follow these steps: 
+1.	Go to the repository SuzanneNL/SKtraining.
+2.	Click on 'clone or download'.
+3.	Click on 'download zip'.
+4.	Unzip the downloaded zip file.
+5.	Run the file 'index.html'.
+6.	The website will open in the default browser of your device.
+
 
 ## CREDITS
 ### Content
