@@ -245,7 +245,7 @@ https://m.youtube.com/watch?v=yc2olxLgKLk
 Positioning buttons on index.html
 https://www.youtube.com/watch?v=fqNPSSoMO9Y
 
-Creating a mobile menu:
+Creating the navigation bar:
 https://www.youtube.com/watch?v=oLgtucwjVII&feature=youtu.be
 
 Creating a contact form:
