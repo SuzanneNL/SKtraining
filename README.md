@@ -160,6 +160,7 @@ Am I Responsive was used to test the responsiveness of the website.
 - Click on the social links in the footer and verify that they direct to social network pages in a new tab.
 - Verify that the media query works by checking that the size of the background image adjusts to the size of the screen using the DevTool.
 - Verify that the menu bar sticks to the top of the screen by scrolling down the pages. 
+- Verify that the footer sticks to the bottom on pages with little content.
 - Verify that all buttons, menu items and social links have a hover-effect, being that changing the mouse into a pointer or changing the (background) color of the item.
 
 ### Home page (index.html)
